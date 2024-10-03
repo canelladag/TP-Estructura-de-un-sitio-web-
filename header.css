@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    align-items: normal;
+}
+
+body{
+    background-color: #ebebeb;
+}
+header {
+    background-color: #EAC926;
+    font-family: "Roboto";
+    font-size: 12px;
+    height: 180px;
+}
+
+.div-header-principal{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+
+.logo{
+    width: 125px;
+    margin: 5px 22px;
+}
+
+.article-searchbar{
+    align-items: center;
+    position: relative;
+    left: 50px;
+}
+
+.search-bar{
+    position: relative;
+    align-items: center;
+    width: 280px;
+    margin: 0px 15px;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    background-color: white;
+    padding: 7px;
+    border: 0px solid white;
+    border-radius: 15%;
+    left: 260px;
+    top: -30px;
+    width: 15px;
+    height: 15px;
+}
+
+.article-hand{
+    position: relative;
+    top: 15px;
+}
+
+.fa-hand-holding-dollar{
+    position: absolute;
+    width: 10px;
+    margin: 15px 45px;
+}
+
+.p{
+    margin: 15px 60px
+}
+
+.div-header-secundario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+
+.ul-navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+}
+
+.items-navbar{
+    list-style: none;
+    width: 120px;
+    margin: 0px 0px 5px 0px;
+}
+
+.items-navbar-a-to-ofertas{
+    padding: 0px 0px 0px 25px;
+} 
+
+.itemsnav {
+    list-style: none;
+    width: 110px;
+}
+
+.items-navbar-a-to{
+    position: relative;
+    right: 25px;
+
+}
+
+.items-navbar-a-to-ayuda{
+    position: relative;
+    right: 70px;
+
+} 
+
+.ul-loginbar{
+    display: flex;
+    /* position: relative;
+    top: 10px;
+    justify-content: flex-end;  */
+}
+

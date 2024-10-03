@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+footer{
+    background-color: white;
+    margin: 9px;
+}
+
+
+
+.titulares{
+    font-family: "Roboto";
+    font-size: 24px;
+    width: 250px;
+}
+
+.cuerpos-de-texto{
+    font-family: "Roboto";
+    font-size: 12px;
+    width: 250px;
+}
+
+.articulos-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cuerpo-de-texto-copyright{
+    font-family: "Roboto";
+    font-size: 12px;
+    width: 250px;
+    margin: 25px 20px;
+    text-decoration: none;
+}
+
+.fa-credit-card{
+    font-size: 2em;
+    color: #1259c3;
+    margin: 9px;
+}
+
+.fa-gift{
+    font-size: 2em;
+    color: #1259c3;
+    margin: 9px;
+}
+
+.fa-user-shield{
+    font-size: 2em;
+    color: #1259c3;
+    margin: 9px;
+}
