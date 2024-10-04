@@ -5,6 +5,16 @@ h2{
     font-size: 24px;
 }
 
+main{
+    width: 100%;
+    height: 100%;
+}
+
+main div section{
+    display: flex;
+    flex-direction: column;
+}
+
 .precios{
     font-family: "Roboto";
     font-size: 18px;
@@ -18,4 +28,12 @@ h2{
 .descripción{
     font-family: "Roboto";
     font-size: 16px;
+}
+
+.main-article-card{
+    text-align: left;
+}
+
+div article img{
+    width: 75%;
 }

@@ -18,17 +18,18 @@ header {
 .div-header-principal{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 15px 0px;
+    align-items: baseline;
 }
 
 
 .logo{
     width: 125px;
-    margin: 5px 22px;
+    position: relative;
+    top: 10px;
 }
 
 .article-searchbar{
-    align-items: center;
     position: relative;
     left: 50px;
 }
@@ -106,13 +107,11 @@ div a{
 .items-navbar-a-to{
     position: relative;
     right: 25px;
-
 }
 
 .items-navbar-a-to-ayuda{
     position: relative;
     right: 70px;
-
 } 
 
 .ul-loginbar{
@@ -121,4 +120,5 @@ div a{
     top: 10px;
     justify-content: flex-end;  */
 }
+
 
