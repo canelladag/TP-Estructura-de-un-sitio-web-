@@ -12,7 +12,7 @@ header {
     background-color: #EAC926;
     font-family: "Roboto";
     font-size: 12px;
-    height: 400px;
+    height: 300px;
 }
 
 .logo{
@@ -67,3 +67,24 @@ div a{
     justify-content: start;
 }
 
+@media screen and (max-width: 425px){
+
+    header{
+        height: 200px;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .login-bar{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .fa-bars{
+        display: none;
+    }
+}
