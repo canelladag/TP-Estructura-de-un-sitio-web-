@@ -53,3 +53,17 @@ footer{
     color: #1259c3;
     margin: 9px;
 }
+
+@media screen and (min-width:1024px){
+    .footer-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .articulos-copyright:hover{
+        .icon-footer{
+            color: #363636;
+        }
+    }
+}
