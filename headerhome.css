@@ -15,31 +15,34 @@ header {
     height: 300px;
 }
 
+.header-section{
+    display: flex;
+}
+
 .logo{
-    max-width: 20vw;
-    margin: 5px 22px;
+    width: 30vw;
+    margin: 5px 5px;
 }
 
 .search-bar{
-    width: 175px;
-    margin: 0px 15px;
+    max-width: 175px;
+    border: 1px solid white;
 }
 
 .fa-magnifying-glass{
     position: relative;
     background-color: white;
     padding: 1px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 15%;
-    left: 15px;
-    top: 1px;
+    right: 25px;
     width: 15px;
 
 }
 
 .texto-compra{
     display: inline-block;
-    margin: 15px 60px
+    margin-top: 15px;
 }
 
 .nav-fa-bars{
@@ -56,7 +59,7 @@ header {
     margin: 20px 0px;
 }
 
-div a{
+a{
     text-decoration: none;
     color: black;
 }
@@ -73,6 +76,34 @@ div a{
         height: 200px;
     }
 
+    .header-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .link-logo{
+        display: flex;
+        justify-content: start;
+        width: 50%;
+    }
+
+    .logo{
+        margin: 15px 0 0 25px;
+        width: 50%;
+    }
+
+    .search-bar{
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 15px;
+        width: 50%;
+    }
+    
+    .fa-magnifying-glass{
+        margin-top: 15px;
+    }
+
     .nav-bar{
         display: none;
     }
@@ -80,11 +111,42 @@ div a{
     .login-bar{
         display: none;
     }
-    
 }
 
 @media screen and (min-width: 768px){
+
+    header{
+        height: 150px;
+    }
+
+    .header-section-top{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header-section-nav{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .itemsnav{
+        margin: 10px 10px;
+    }
     .fa-bars{
         display: none;
+    }
+    
+    section ul{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .fa-magnifying-glass{
+        position: relative;
+        right: 70px;
     }
 }

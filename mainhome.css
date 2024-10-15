@@ -16,57 +16,80 @@ main{
 
 main h2{
     text-align: center;
+    width: 100%;
 }
 main div section{
     display: flex;
     flex-direction: column;
 }
 
+.img-home-banner{
+    width: 100%;
+}
+
 .precios{
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Roboto";
     font-size: 18px;
-    
+    font-weight: 600;
+    justify-content: flex-start;
+    width: 30%;
 }
 
 .descuentos{
+    color: #39b54a;
+    display: flex;
     font-family: "Roboto";
     font-size: 16px;
-    color: #39b54a;
-
+    justify-content: center;
+    width: 70%;
 }
 
 .descripción{
+    color: #666;
     font-family: "Roboto";
     font-size: 16px;
-    margin-top: 20px;
+    text-align: center;
 }
 
 .main-container{
-    padding: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     margin: 0 auto;
     text-align: center;
     width: 50%;
-    background-color: white;
 }
 
 .main-img{
     width: 100%;
 }
 
-.main-container-secondary{
-    position: relative;
-    width: 100%;
-    margin: 10px auto;
-    text-align: start;
-    padding: 15px;
+.main-subcontainer{
     border-top:  1px solid #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 0 0 15px 20px;
 }
-
-
 
 .fa-truck{
     color: #39b54a;
-    margin: 15px 14px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    width: 100%;
+}
+
+.fa-truck:before{
+    border: 1px solid #39b54a;
+    border-radius: 100%;
+    padding: 5px;
+    position: relative;
+    left: 15px;
 }
 
 @media screen and (max-width: 425px){
@@ -74,10 +97,41 @@ main div section{
         display: none;
     }
 
+    .img-home-banner{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px){
-    *{
+    /* *{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    } */
+
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-container{
+        width: 40%;
+        margin: 15px 25px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-container{
+        width: 20%;
+        margin: 10px 5px;
+    }
+
+    .main-subcontainer{
+        padding: 0 0 10px 10px;
     }
 }

@@ -78,7 +78,6 @@ header {
     margin: 15px 0px;
 }
 
-
 .ul-navbar{
     display: flex;
     justify-content: space-around;
@@ -116,9 +115,6 @@ div a{
 
 .ul-loginbar{
     display: flex;
-    /* position: relative;
-    top: 10px;
-    justify-content: flex-end;  */
 }
 
 
